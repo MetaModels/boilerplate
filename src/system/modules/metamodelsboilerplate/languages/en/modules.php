@@ -17,4 +17,4 @@
 /**
  * Back end modules
  */
-$GLOBALS['TL_LANG']['MOD']['metamodels_boilerplate'] = 'MetaModels Boilerplate';
+$GLOBALS['TL_LANG']['MOD']['metamodelsboilerplate'] = 'MetaModels Boilerplate';
