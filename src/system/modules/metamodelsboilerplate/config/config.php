@@ -20,7 +20,7 @@
 $i = array_search('design', array_keys($GLOBALS['BE_MOD']));
 $GLOBALS['BE_MOD'] = array_merge(array_slice(
 	$GLOBALS['BE_MOD'], 0, $i), 
-		array('metamodels_boilerplate' => array()
+		array('metamodelsboilerplate' => array()
 	), 
 	array_slice($GLOBALS['BE_MOD'], $i)
 );
