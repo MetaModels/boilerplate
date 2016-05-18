@@ -20,6 +20,6 @@
  */
 
 /**
- * own name of navigation group at backend
+ * eigene Bezeichnung einer Navigationsgruppe im Backend
  */
-$GLOBALS['TL_LANG']['MOD']['metamodelsboilerplate'] = 'My MetaModel';
+$GLOBALS['TL_LANG']['MOD']['metamodelsboilerplate'] = 'Mein MetaModel';
