@@ -21,7 +21,10 @@
 
 
 /**
+ * NAVIGATION
+ *
  * Add own navigation group at backend
+ * include before e.g. "Design" 
  */
 $i = array_search('design', array_keys($GLOBALS['BE_MOD']));
 $GLOBALS['BE_MOD'] = array_merge(array_slice(
@@ -30,3 +33,33 @@ $GLOBALS['BE_MOD'] = array_merge(array_slice(
 	), 
 	array_slice($GLOBALS['BE_MOD'], $i)
 );
+
+
+/**
+ * DEFAULT VALUES AT INPUT SCREEN
+ *
+ * set default values at input screen
+ * change the placeholder <...> with
+ * <MM-Table-Name> e.g. mm_my_table
+ * <Field-Column-Name> e.g. name
+ * <Value> is depended at type of attribute
+ * Text: e.g. 'my default text'
+ * Timestamp: timestamp integer e.g. '1463657005' or time()
+ * Select: the ID integer of value e.g. '2'
+ * Tags: the value(es) of alias(es) as array e.g. array('my-alias-1', 'my-alias-2')
+ * 
+ * Kochbuch: http://metamodels.readthedocs.io/de/latest/cookbook/panels/default-values.html
+ */
+//$GLOBALS['TL_DCA']['<MM-Table-Name>']['fields']['<Field-Column-Name>']['default'] = <Value>;
+
+
+/**
+ * HOOKS
+ *
+ * activate your hook class at /classes
+ * and autoload the class at autoload.php or start 
+ * autoload creator (developer tools)
+ * replace the placeholder <Hook-Name>
+ * look at https://docs.contao.org/books/api/extensions/hooks/index.html
+ */
+//$GLOBALS['TL_HOOKS']['<Hook-Name>'][] = array('MyMetaModelClass', 'myMetaModelFunction');
