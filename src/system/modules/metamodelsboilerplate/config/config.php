@@ -24,6 +24,7 @@
  * NAVIGATION
  *
  * Add own navigation group at backend
+ * include before e.g. "Design" 
  */
 $i = array_search('design', array_keys($GLOBALS['BE_MOD']));
 $GLOBALS['BE_MOD'] = array_merge(array_slice(

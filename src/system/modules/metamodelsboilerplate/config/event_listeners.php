@@ -23,6 +23,8 @@
  *
  * change the placeholder <...> and use the
  * template with or without priority
+ *
+ * more infos: https://github.com/contao-community-alliance/event-dispatcher
  */
 
 /*
