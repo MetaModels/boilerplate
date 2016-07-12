@@ -12,7 +12,6 @@
  *
  * @package    MetaModels
  * @subpackage Boilerplate
- * @author     Andreas Isaak <info@andreas-isaak.de>
  * @author     Ingolf Steinhardt <info@e-spin.de>
  * @copyright  2012-2016 The MetaModels team.
  * @license    https://github.com/MetaModels/boilerplate/blob/master/LICENSE LGPL-3.0
@@ -20,6 +19,17 @@
  */
 
 /**
- * own name of navigation group at backend
+ * you can use all Contao hooks
+ * look at https://docs.contao.org/books/api/extensions/hooks/index.html
+ * and activate the hook at config.php
+ * and autoload the class at autoload.php
  */
-$GLOBALS['TL_LANG']['MOD']['metamodelsboilerplate'] = 'My MetaModel';
+/*
+class MyMetaModelClass
+{
+    public function myMetaModelFunction($param)
+    {
+        // function
+    }
+}
+*/
