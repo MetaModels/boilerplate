@@ -47,7 +47,7 @@ return array(
                 // function...
             },
             -1
-        }
+        )
     )
 );
 */
